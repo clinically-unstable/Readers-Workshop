@@ -300,16 +300,6 @@ p {
   hyphens: auto;
 }
 
-p:first-of-type::first-letter {
-  font-family: 'Cinzel Decorative', serif;
-  font-size: 3.4em;
-  font-weight: 700;
-  float: left;
-  line-height: 0.78;
-  margin: 6px 10px 0 0;
-  color: var(--rust-dark);
-  text-shadow: 2px 2px 0 var(--parchment-dark);
-}
 
 .divider {
   text-align: center;
@@ -345,14 +335,13 @@ p:first-of-type::first-letter {
   font-style: italic;
   color: var(--rust-dark);
   margin: 0;
-  text-align: left;
 }
 
 .pull-quote p::first-letter { all: unset; }
 
-.infobox {
-  float: right;
-  width: 260px;
+.infobox-left {
+  float: left;
+  width: 40%;
   margin: 0 0 24px 28px;
   padding: 20px;
   border: 2px solid var(--parchment-deep);
@@ -360,36 +349,17 @@ p:first-of-type::first-letter {
   box-shadow: 3px 4px 12px var(--shadow-light);
 }
 
-.infobox-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--rust);
-  text-align: center;
-  margin-bottom: 14px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid var(--parchment-deep);
+.infobox-right {
+  float: right;
+  width: 40%;
+  margin: 0 0 24px 28px;
+  padding: 20px;
+  border: 2px solid var(--parchment-deep);
+  background: rgba(212, 38, 15, 0.1);
+  box-shadow: 3px 4px 12px var(--shadow-light);
 }
 
-.infobox dl {
-  font-size: 0.85rem;
-}
 
-.infobox dt {
-  font-family: 'IM Fell English', serif;
-  font-style: italic;
-  font-weight: 400;
-  color: var(--sepia);
-  margin-top: 8px;
-}
-
-.infobox dd {
-  color: var(--ink-faded);
-  margin-left: 12px;
-  font-size: 0.88rem;
-}
 
 
 ul.styled, ol.styled {
@@ -456,7 +426,6 @@ ul.styled li, ol.styled li {
   .infobox {
     float: none;
     width: 100%;
-    margin: 0 0 24px 0;
   }
 
   .masthead h1 {
@@ -473,8 +442,41 @@ ul.styled li, ol.styled li {
   }
 }
 
+.dotted_line_vert
+{
+    border-left: 1px dotted white;
+    height: 100px;
+} 
+
 .outline {
   font-size: 18px;
   color: white; 
   -webkit-text-stroke: 1px #D4AF37; 
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d41f1f;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #ff3d3d;
 }
