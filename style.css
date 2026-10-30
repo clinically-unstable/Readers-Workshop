@@ -443,12 +443,6 @@ ul.styled li, ol.styled li {
   }
 }
 
-.dotted_line_vert
-{
-    border-left: 1px dotted white;
-    height: 100px;
-} 
-
 .outline {
   font-size: 18px;
   color: transparent;
@@ -545,6 +539,9 @@ ul li a:hover {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
 .hell-levels {
   position: relative;
   isolation: isolate;
