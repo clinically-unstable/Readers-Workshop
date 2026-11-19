@@ -116,8 +116,6 @@ function addCircleTabs(article) {
   prompt.append(promptText);
 
   const sources = document.createElement("p");
-  sources.className = "circle-sources-link";
-  sources.innerHTML = `<a href="sources.html#circle-${key}">View sources here</a>`;
   insightContent.append(copy, prompt, sources);
   insightPanel.append(insightContent);
   layerPanel.insertAdjacentElement("afterend", insightPanel);
