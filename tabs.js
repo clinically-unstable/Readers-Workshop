@@ -1,65 +1,68 @@
 const circleInsights = {
   limbo: {
-    title: "The Boundary",
+    title: "Excellence is not salvation",
     paragraphs: [
-      "The first circle, Limbo, represents the boundary between excellence and salvation. Those who are not baptized, no matter if they were a good person or not, end up in Hell.",
-      "It is the limit of human reason, and it displays that reason alone cannot achieve salvation. Those who have not sinned, however, are not punished with active suffering. Rather, their punishment is knowing that they are in Limbo forever."
+      "Limbo marks the line between human achievement and divine salvation. Even virtuous people remain trapped here if they were never baptized, regardless of how exemplary their lives may have been.",
+      "The circle demonstrates the limits of human reason: intelligence and moral effort alone cannot bring a soul to salvation. Although these inhabitants receive no active torment, they suffer the eternal awareness that they can never reach God."
     ],
   },
   lust: {
-    title: "A story that argues for itself",
+    title: "Desire that overrules judgment",
     paragraphs: [
-      "Francesca tells her story with the polished language of romance: love appears to act by itself, leaving the lovers little agency. But the scene also makes us hear what her account leaves out. The book, the kiss, and the storm form a chain of choices even as her words recast them as fate.",
-      "Dante the pilgrim is moved to pity; Dante the poet has placed the episode in a moral map. Holding those responses together makes the canto more unsettling than a simple lesson against desire."
+      "Lust is concerned with the force behind desire, not merely forbidden sexual acts. Dante presents it as an excessive impulse that overwhelms reason and self-control.",
+      "The souls are driven by the same restless wind that carries them through the circle. Their aimless motion reflects how passion can confuse judgment and divert people from what truly matters."
     ],
   },
   gluttony: {
-    title: "When appetite becomes a civic metaphor",
+    title: "Appetite beyond restraint",
     paragraphs: [
-      "Ciacco's encounter begins in the mud of bodily excess, then turns toward Florence: the city itself is described through images of overflowing appetite and envy. The shift suggests that the poem is interested not only in what a person consumes, but in how a community's desires can become insatiable.",
-      "Ciacco is also a political voice, not just an example of a sin. His prediction makes the afterlife a place where Florence's present conflicts are remembered and judged."
+      "Gluttony depicts selfish and uncontrolled consumption. Dante is concerned not only with what individuals eat or desire, but with how a community's appetites can grow without limit.",
+      "His criticism of Florence makes this political as well as moral. Dante suggests that insatiable greed and excess have weakened civic life, while unchecked appetite continues to cloud judgment and spiritual purpose."
     ],
   },
   greed: {
-    title: "Two extremes, one loss of measure",
+    title: "Wealth stripped of meaning",
     paragraphs: [
-      "Dante places hoarders and spendthrifts in opposing teams, but the collision does not make one side a winner. Both have let wealth set the terms of their lives. Their endless exchange turns possession and disposal into equally empty motions.",
-      "This pairing is more subtle than a warning simply to spend less. Read beside Virgil's account of Fortune, the episode asks how to live with goods that change hands—and whether judgment and moderation can matter more than accumulation."
+      "Avarice is an extreme attachment to material wealth, and Dante treats it as both hoarding and reckless spending. In the fourth circle, hoarders and squanderers endlessly collide and shove, with neither side ever winning.",
+      "Their futile struggle mirrors an economic obsession that brings no peace. After years of torment, their faces are disfigured, reflecting how greed has stripped away the individuality of those consumed by it."
     ],
   },
   wrath: {
-    title: "Anger above, anger below",
+    title: "Anger outward and inward",
     paragraphs: [
-      "The marsh gives anger two forms: visible violence on the surface and resentment buried beneath it. The pairing is not a claim that every quiet person is secretly wrathful; within Dante's moral vocabulary, it distinguishes destructive outburst from a life closed in bitterness.",
-      "The episode also changes the journey's scale. Across the Styx stands Dis, a threshold after which the poem increasingly examines deliberate choices and the misuse of reason."
+      "The fifth circle shows wrathful anger in two forms. The Wrathful attacked and tore at others during life and now repeat that violence for eternity.",
+      "The Sullen remained silent and withdrew their joy and gratitude, allowing resentment to consume them. Now they gurgle beneath the swamp, unable to express the words they refused to speak.",
+      "Like the sins of the previous circles, wrath is a failure to restrain natural impulses. It represents souls allowing emotion to govern judgment and action."
     ],
   },
   heresy: {
-    title: "The limits of knowing",
+    title: "Belief closed against eternity",
     paragraphs: [
-      "The burning tombs make a belief about death into a physical setting. Yet the canto's deeper unease comes from knowledge: the shades can see distant events but cannot see the present clearly. Their intellectual confidence has not given them the whole truth they sought.",
-      "Farinata's political pride and Cavalcante's fear for his son interrupt one another in the same cemetery. The result is not an abstract debate alone; ideas about the soul remain entangled with family, memory, and Florence."
+      "Heresy begins the level of sins that involve deliberately rejecting right belief or order. Heretics hold opinions, especially about religion, that oppose accepted truth and common expectations.",
+      "Inside the sixth circle, they lie in stone tombs heated by flames. Because they denied the afterlife, they are imprisoned in these graves forever, with the tombs remaining open until the Last Judgment and closing after the resurrection."
     ],
   },
   violence: {
-    title: "What violence does to the self",
+    title: "Violence against creation",
     paragraphs: [
-      "The three rings classify violence by what it damages: another person, oneself, or the order Dante associates with God, nature, and human work. This is a medieval Christian framework, and its categories should be read in that historical context rather than mistaken for a neutral modern taxonomy.",
-      "The wood of the suicides is especially difficult: a person's body and voice are transformed, and the pilgrim must wound a branch before he understands who is speaking. The scene makes recognition itself painful, asking what it means to treat a suffering person as an object."
+      "The seventh circle divides violence into attacks against other people, oneself, and God or the natural order.",
+      "Those who harmed others stand submerged in boiling blood, echoing the rage and bloodshed that defined their lives. Suicides become trees whose branches are endlessly torn by harpies, while squanderers are pursued and ripped apart by hounds just as they destroyed their own wealth.",
+      "In the final ring, blasphemers, sodomites, and usurers endure burning rain in a barren desert. Having rejected God's natural order, they remain in a sterile wasteland suited to acts Dante presents as unnatural."
     ],
   },
   fraud: {
-    title: "A landscape built to mislead",
+    title: "Intelligence turned against truth",
     paragraphs: [
-      "Malebolge is not wild terrain but an engineered maze of ditches and bridges. Its built order suits fraud: deception is planned, varied, and adapted to its victims. The neatly divided landscape makes wrongdoing look almost administrative.",
-      "Geryon prepares this descent before the travelers reach the ditches: his courteous face and dangerous body make appearance itself part of the warning. Here, intelligence is not condemned; its use to manipulate trust is."
+      "Fraud occupies the eighth circle and consists of ten subdivisions called bolgias. It is the misuse of human intelligence, God's gift, to deceive, manipulate, and conceal the truth.",
+      "Most of the sinners' punishments involve the destruction or concealment of identity and appearance. Their distorted bodies mirror the disguises and broken truths that allowed them to hide malice while depending on other people's trust."
     ],
   },
   treachery: {
-    title: "The coldest form of isolation",
+    title: "Cold indifference at the end",
     paragraphs: [
-      "At the bottom of Hell, fire gives way to ice. The reversal makes treachery feel less like a sudden blaze of passion than a refusal of human warmth: the deepest wrongs violate relationships that should have made trust possible.",
-      "The frozen lake also answers the storm of the second circle. Paolo and Francesca are swept together by motion; the traitors are immobilized and cut off. The poem's geography turns emotional and moral distance into a physical condition."
+      "Treachery lies at the bottom of Hell and is divided into four frozen regions. The ice replaces fire because complete betrayal means moving farthest from God's warmth and love.",
+      "Dante presents evil as cold indifference rather than uncontrolled passion. In the lowest region, sin has destroyed the capacity for human connection: the sinners are deprived of speech and movement.",
+      "Lucifer himself is immobile and mute, another victim of his own sin. Unable to speak God's words, he chews on history's greatest traitors. By stripping evil of grandeur and action, Dante reveals Lucifer and treachery as the absence of good."
     ],
   }
 };
