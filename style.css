@@ -813,19 +813,61 @@ a {
   top: auto;
   width: auto;
   margin: 0;
-  padding-left: 20px;
+  padding: 0;
   background: transparent;
   border: 0;
-  list-style-type: disc;
+  list-style: none;
 }
 
 .allusions li {
   float: none;
   margin-bottom: 10px;
-  padding: 0;
+  padding: 12px;
   color: #e6d7bd;
   font-size: 0.88rem;
   line-height: 1.75;
+}
+
+.allusions .allusion-item {
+  display: grid;
+  grid-template-columns: 112px 1fr;
+  align-items: start;
+  gap: 16px;
+  border-top: 1px solid rgba(223, 181, 111, 0.18);
+}
+
+.allusions .allusion-item:first-child {
+  border-top: 0;
+}
+
+.allusion-image {
+  width: 112px;
+  height: 112px;
+  object-fit: cover;
+  border: 1px solid rgba(223, 181, 111, 0.55);
+  border-radius: 8px;
+  background: #211a15;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.22);
+}
+
+.allusion-item p {
+  margin: 0;
+  color: #e6d7bd;
+  font-size: 0.88rem;
+  line-height: 1.75;
+  text-align: left;
+}
+
+@media (max-width: 520px) {
+  .allusions .allusion-item {
+    grid-template-columns: 84px 1fr;
+    gap: 12px;
+  }
+
+  .allusion-image {
+    width: 84px;
+    height: 84px;
+  }
 }
 
 .reread-prompt {

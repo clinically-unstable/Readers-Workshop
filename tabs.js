@@ -1,6 +1,7 @@
 const circleInsights = {
   limbo: {
     title: "Excellence is not salvation",
+    images: ["limbo-1.jpg", "limbo-2.jpg", "limbo-3.jpg", "limbo-4.jpg"],
     paragraphs: [
       "Limbo marks the line between human achievement and divine salvation. Even virtuous people remain trapped here if they were never baptized, regardless of how exemplary their lives may have been.",
       "The circle demonstrates the limits of human reason: intelligence and moral effort alone cannot bring a soul to salvation. Although these inhabitants receive no active torment, they suffer the eternal awareness that they can never reach God."
@@ -14,6 +15,7 @@ const circleInsights = {
   },
   lust: {
     title: "Desire that overrules judgment",
+    images: ["lust-1.jpg", "lust-2.png", "lust-3.png", "lust-4.jpg"],
     paragraphs: [
       "Lust is concerned with the force behind desire, not merely forbidden sexual acts. Dante presents it as an excessive impulse that overwhelms reason and self-control.",
       "The souls are driven by the same restless wind that carries them through the circle. Their aimless motion reflects how passion can confuse judgment and divert people from what truly matters."
@@ -27,6 +29,7 @@ const circleInsights = {
   },
   gluttony: {
     title: "Appetite beyond restraint",
+    images: ["gluttony-1.jpg", "gluttony-2.jpg", "gluttony-3.jpg", "gluttony-4.jpg"],
     paragraphs: [
       "Gluttony depicts selfish and uncontrolled consumption. Dante is concerned not only with what individuals eat or desire, but with how a community's appetites can grow without limit.",
       "His criticism of Florence makes this political as well as moral. Dante suggests that insatiable greed and excess have weakened civic life, while unchecked appetite continues to cloud judgment and spiritual purpose."
@@ -40,6 +43,7 @@ const circleInsights = {
   },
   greed: {
     title: "Wealth stripped of meaning",
+    images: ["greed-1.jpg", "greed-2.jpg", "greed-3.jpg", "greed-4.jpg"],
     paragraphs: [
       "Avarice is an extreme attachment to material wealth, and Dante treats it as both hoarding and reckless spending. In the fourth circle, hoarders and squanderers endlessly collide and shove, with neither side ever winning.",
       "Their futile struggle mirrors an economic obsession that brings no peace. After years of torment, their faces are disfigured, reflecting how greed has stripped away the individuality of those consumed by it."
@@ -53,6 +57,7 @@ const circleInsights = {
   },
   wrath: {
     title: "Anger outward and inward",
+    images: ["wrath-1.jpg", "wrath-2.jpg", "wrath-3.jpg", "wrath-4.jpg"],
     paragraphs: [
       "The fifth circle shows wrathful anger in two forms. The Wrathful attacked and tore at others during life and now repeat that violence for eternity.",
       "The Sullen remained silent and withdrew their joy and gratitude, allowing resentment to consume them. Now they gurgle beneath the swamp, unable to express the words they refused to speak.",
@@ -67,6 +72,7 @@ const circleInsights = {
   },
   heresy: {
     title: "Belief closed against eternity",
+    images: ["heresy-1.jpg", "heresy-2.jpg", "heresy-3.jpg", "heresy-4.jpg"],
     paragraphs: [
       "Heresy begins the level of sins that involve deliberately rejecting right belief or order. Heretics hold opinions, especially about religion, that oppose accepted truth and common expectations.",
       "Inside the sixth circle, they lie in stone tombs heated by flames. Because they denied the afterlife, they are imprisoned in these graves forever, with the tombs remaining open until the Last Judgment and closing after the resurrection."
@@ -80,6 +86,7 @@ const circleInsights = {
   },
   violence: {
     title: "Violence against creation",
+    images: ["violence-1.jpg", "violence-2.jpg", "violence-3.png", "violence-4.jpg", "violence-5.jpg"],
     paragraphs: [
       "The seventh circle divides violence into attacks against other people, oneself, and God or the natural order.",
       "Those who harmed others stand submerged in boiling blood, echoing the rage and bloodshed that defined their lives. Suicides become trees whose branches are endlessly torn by harpies, while squanderers are pursued and ripped apart by hounds just as they destroyed their own wealth.",
@@ -95,6 +102,7 @@ const circleInsights = {
   },
   fraud: {
     title: "Intelligence turned against truth",
+    images: ["fraud-1.jpg", "fraud-2.jpg", "fraud-3.jpg", "fraud-4.jpg", "fraud-5.jpg"],
     paragraphs: [
       "Fraud occupies the eighth circle and consists of ten subdivisions called bolgias. It is the misuse of human intelligence, God's gift, to deceive, manipulate, and conceal the truth.",
       "Most of the sinners' punishments involve the destruction or concealment of identity and appearance. Their distorted bodies mirror the disguises and broken truths that allowed them to hide malice while depending on other people's trust."
@@ -109,6 +117,7 @@ const circleInsights = {
   },
   treachery: {
     title: "Cold indifference at the end",
+    images: ["treachery-1.jpg", "treachery-2.jpg", "treachery-3.jpg", "treachery-4.jpg", "treachery-5.jpg"],
     paragraphs: [
       "Treachery lies at the bottom of Hell and is divided into four frozen regions. The ice replaces fire because complete betrayal means moving farthest from God's warmth and love.",
       "Dante presents evil as cold indifference rather than uncontrolled passion. In the lowest region, sin has destroyed the capacity for human connection: the sinners are deprived of speech and movement.",
@@ -123,6 +132,14 @@ const circleInsights = {
     ]
   }
 };
+
+function getAllusionTitle(text) {
+  const match = text.match(/^([^.,]+?)(?=\s+(?:was|were|is|are|recalls|alludes|appears|comes|comes from|gives|represents|symbolizes)\b)/i);
+  if (match) return match[1].trim();
+
+  const firstClause = text.split(/[.,]/)[0].trim();
+  return firstClause.length > 32 ? firstClause.slice(0, 29).trim() + "..." : firstClause;
+}
 
 function addCircleTabs(article) {
   const key = article.dataset.circle;
@@ -173,9 +190,23 @@ function addCircleTabs(article) {
   const allusionsTitle = document.createElement("h3");
   allusionsTitle.textContent = "Historical/Mythological Characters";
   const allusionsList = document.createElement("ul");
-  insight.allusions.forEach((item) => {
+  insight.allusions.forEach((item, index) => {
+    const title = getAllusionTitle(item);
     const li = document.createElement("li");
-    li.textContent = item;
+    li.className = "allusion-item";
+
+    const image = document.createElement("img");
+    image.className = "allusion-image";
+    image.alt = `${title} illustration`;
+    image.loading = "eager";
+    image.width = 180;
+    image.height = 180;
+    const imageName = insight.images[index];
+    image.src = `images/allusions/${imageName}`;
+
+    const copy = document.createElement("p");
+    copy.textContent = item;
+    li.append(image, copy);
     allusionsList.append(li);
   });
   allusions.append(allusionsTitle, allusionsList);
