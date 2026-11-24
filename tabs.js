@@ -5,6 +5,12 @@ const circleInsights = {
       "Limbo marks the line between human achievement and divine salvation. Even virtuous people remain trapped here if they were never baptized, regardless of how exemplary their lives may have been.",
       "The circle demonstrates the limits of human reason: intelligence and moral effort alone cannot bring a soul to salvation. Although these inhabitants receive no active torment, they suffer the eternal awareness that they can never reach God."
     ],
+    allusions: [
+      "Homer was the ancient Greek poet of the Iliad and Odyssey. Horace was a Roman lyric poet, Ovid wrote Metamorphoses, and Lucan wrote the epic Pharsalia.",
+      "Aristotle was an ancient Greek philosopher whose works shaped medieval ethics and science. Dante calls him the “master of those who know.”",
+      "Virgil was a Roman epic poet who wrote the Aeneid. He serves as Dante's guide and is a virtuous pagan condemned to Limbo.",
+      "Electra was a daughter of Atlas in Greek legend. Hector was Troy's greatest defender, Aeneas was the Trojan hero who became Rome's legendary ancestor, and Caesar was the Roman general and dictator."
+    ]
   },
   lust: {
     title: "Desire that overrules judgment",
@@ -12,6 +18,12 @@ const circleInsights = {
       "Lust is concerned with the force behind desire, not merely forbidden sexual acts. Dante presents it as an excessive impulse that overwhelms reason and self-control.",
       "The souls are driven by the same restless wind that carries them through the circle. Their aimless motion reflects how passion can confuse judgment and divert people from what truly matters."
     ],
+    allusions: [
+      "Francesca da Rimini was a noblewoman of the Malatesta family. Paolo Malatesta was her brother-in-law; Dante presents their affair as real-life adultery.",
+      "Lancelot was a knight of King Arthur's court, and Guinevere was Arthur's queen. Their secret love story was a popular medieval example of courtly, adulterous romance.",
+      "Semiramis was the legendary queen of Assyria, Cleopatra was queen of Egypt, Dido founded Carthage and died after her love affair with Aeneas, and Helen was the Greek queen whose abduction began the Trojan War.",
+      "Dido's story in Virgil's Aeneid ends with her suicide after Aeneas leaves her. It connects Francesca's passion with a classical warning about love overcoming duty."
+    ]
   },
   gluttony: {
     title: "Appetite beyond restraint",
@@ -19,6 +31,12 @@ const circleInsights = {
       "Gluttony depicts selfish and uncontrolled consumption. Dante is concerned not only with what individuals eat or desire, but with how a community's appetites can grow without limit.",
       "His criticism of Florence makes this political as well as moral. Dante suggests that insatiable greed and excess have weakened civic life, while unchecked appetite continues to cloud judgment and spiritual purpose."
     ],
+    allusions: [
+      "Cerberus was the three-headed hound who guarded the Greek and Roman underworld.",
+      "Ciacco was a real or fictional Florentine known for his appetite. His name may come from “pig”; Dante uses him to discuss Florence's factions.",
+      "The filthy rain and mud allude to chaos in nature and to the uncontrolled appetites of the souls.",
+      "The White and Black Guelph factions divided Florence during Dante's life. His political warnings turn gluttony's excess into a broader critique of his city."
+    ]
   },
   greed: {
     title: "Wealth stripped of meaning",
@@ -26,6 +44,12 @@ const circleInsights = {
       "Avarice is an extreme attachment to material wealth, and Dante treats it as both hoarding and reckless spending. In the fourth circle, hoarders and squanderers endlessly collide and shove, with neither side ever winning.",
       "Their futile struggle mirrors an economic obsession that brings no peace. After years of torment, their faces are disfigured, reflecting how greed has stripped away the individuality of those consumed by it."
     ],
+    allusions: [
+      "Plutus was the Roman god of wealth, while the Greek figure associated with him was also called Pluto. Dante presents him as a guardian of this circle.",
+      "Fortune was a classical symbol of unpredictable luck. Virgil explains that God appointed her to move worldly wealth, although people often blame bad luck for the result.",
+      "The hoarders kept too much, while the squanderers wasted everything. Aristotle's discussion of wealth and moderation helps explain why Dante treats both extremes as sins.",
+      "The unnamed sinners in this circle are left faceless and divided into two groups, showing how greed removed their identities and judgment."
+    ]
   },
   wrath: {
     title: "Anger outward and inward",
@@ -34,6 +58,12 @@ const circleInsights = {
       "The Sullen remained silent and withdrew their joy and gratitude, allowing resentment to consume them. Now they gurgle beneath the swamp, unable to express the words they refused to speak.",
       "Like the sins of the previous circles, wrath is a failure to restrain natural impulses. It represents souls allowing emotion to govern judgment and action."
     ],
+    allusions: [
+      "The Styx was a river in Greek mythology whose waters marked a boundary of the underworld.",
+      "Phlegyas was a mythic king who burned Apollo's temple after Apollo deceived his daughter. In the Inferno, he ferries Virgil and Dante across the swamp.",
+      "Filippo Argenti was a Florentine nobleman, possibly a member of the Adimari family, whom Dante presents as a real person defeated by uncontrolled rage.",
+      "The Wrathful attack outwardly, while the Sullen brood beneath the mud. This contrast alludes to Christian teachings that anger can damage others or oneself."
+    ]
   },
   heresy: {
     title: "Belief closed against eternity",
@@ -41,6 +71,12 @@ const circleInsights = {
       "Heresy begins the level of sins that involve deliberately rejecting right belief or order. Heretics hold opinions, especially about religion, that oppose accepted truth and common expectations.",
       "Inside the sixth circle, they lie in stone tombs heated by flames. Because they denied the afterlife, they are imprisoned in these graves forever, with the tombs remaining open until the Last Judgment and closing after the resurrection."
     ],
+    allusions: [
+      "Epicurus was an ancient Greek philosopher who taught that pleasure guided choices and believed the soul died with the body. Dante incorrectly associates all his followers with that doctrine.",
+      "Farinata degli Uberti was a prominent Ghibelline leader and the man credited with saving Florence after the Battle of Montaperti.",
+      "Cavalcante de' Cavalcanti was a wealthy Florentine noble and the father of poet Guido Cavalcanti, Dante's close friend.",
+      "The open tombs allude to 1 Thessalonians 4 and Christian belief in bodily resurrection at the Last Judgment."
+    ]
   },
   violence: {
     title: "Violence against creation",
@@ -49,6 +85,13 @@ const circleInsights = {
       "Those who harmed others stand submerged in boiling blood, echoing the rage and bloodshed that defined their lives. Suicides become trees whose branches are endlessly torn by harpies, while squanderers are pursued and ripped apart by hounds just as they destroyed their own wealth.",
       "In the final ring, blasphemers, sodomites, and usurers endure burning rain in a barren desert. Having rejected God's natural order, they remain in a sterile wasteland suited to acts Dante presents as unnatural."
     ],
+    allusions: [
+      "Chiron was the wise leader of the Centaurs, and Nessus was the Centaur who carried a shirt poisoned with his own blood. In Greek myth, both were violent or tragic figures.",
+      "The Minotaur was a creature with a man's body and bull's head. The Cretan king kept him in a maze until Theseus defeated him.",
+      "The Harpies were bird-women from Greek myth who snatched food and tormented the travelers in Virgil's Aeneid. They tear at the suicides' trees here.",
+      "The Old Man of Crete alludes to an ancient statue representing the decline of the ages of humanity, also recalling the statue in Daniel 2.",
+      "Capaneus was a warrior in Statius's Thebaid who boasted that Zeus could not stop him. Zeus killed him with lightning for defying the gods."
+    ]
   },
   fraud: {
     title: "Intelligence turned against truth",
@@ -56,6 +99,13 @@ const circleInsights = {
       "Fraud occupies the eighth circle and consists of ten subdivisions called bolgias. It is the misuse of human intelligence, God's gift, to deceive, manipulate, and conceal the truth.",
       "Most of the sinners' punishments involve the destruction or concealment of identity and appearance. Their distorted bodies mirror the disguises and broken truths that allowed them to hide malice while depending on other people's trust."
     ],
+    allusions: [
+      "Geryon was a classical three-bodied monster. Dante transforms him into a creature with an honest-looking face and a scorpion tail to symbolize fraud's attractive appearance.",
+      "Simon Magus was a sorcerer in the New Testament who offered money for spiritual power. His name gives us “simony,” the purchase or sale of Church offices.",
+      "Ulysses was the Greek hero of the Odyssey, and Diomedes was another Greek commander. Their schemes during the Trojan War appear as examples of deceptive counsel.",
+      "Muhammad was the founder of Islam, and Ali was his cousin and a major early Islamic leader. Caiaphas was the high priest who arranged Christ's execution, and Dante places him among hypocrites.",
+      "Cacus was a fire-breathing giant and thief defeated by Hercules. Sinon was a Greek deceiver who persuaded the Trojans to accept the wooden horse."
+    ]
   },
   treachery: {
     title: "Cold indifference at the end",
@@ -64,6 +114,13 @@ const circleInsights = {
       "Dante presents evil as cold indifference rather than uncontrolled passion. In the lowest region, sin has destroyed the capacity for human connection: the sinners are deprived of speech and movement.",
       "Lucifer himself is immobile and mute, another victim of his own sin. Unable to speak God's words, he chews on history's greatest traitors. By stripping evil of grandeur and action, Dante reveals Lucifer and treachery as the absence of good."
     ],
+    allusions: [
+      "Caina is named for Cain, who killed his brother Abel. Antenora is named for Antenor, a Trojan said to have betrayed Troy. Ptolomea recalls Ptolemy, who betrayed guests, and Judecca recalls Judas.",
+      "Count Ugolino della Gherardesca was a Pisan noble. Archbishop Ruggieri degli Ubaldini imprisoned him and his sons to starve. Dante shaped their medieval feud into a tragic story.",
+      "Lucifer means “morning star” and names the Christian fallen angel who revolted against God. Dante also alludes to Isaiah 14, where a proud ruler says, “I will ascend.”",
+      "Judas Iscariot betrayed Jesus for silver. Marcus Brutus and Gaius Cassius were Roman senators who helped assassinate Julius Caesar.",
+      "Cocytus was a classical river of lamentation. Dante transforms it into a frozen lake whose ice symbolizes the total absence of love and human warmth."
+    ]
   }
 };
 
@@ -106,20 +163,23 @@ function addCircleTabs(article) {
   insightContent.className = "circle-content";
   const copy = document.createElement("div");
   copy.className = "insight-copy";
-  copy.innerHTML = `<p class="insight-kicker">A second reading</p><h2>${insight.title}</h2>`;
   insight.paragraphs.forEach((paragraph) => {
     const p = document.createElement("p");
     p.textContent = paragraph;
     copy.append(p);
   });
-  const prompt = document.createElement("aside");
-
-  const promptText = document.createElement("p");
-  promptText.textContent = insight.prompt;
-  prompt.append(promptText);
-
-  const sources = document.createElement("p");
-  insightContent.append(copy, prompt, sources);
+  const allusions = document.createElement("aside");
+  allusions.className = "allusions";
+  const allusionsTitle = document.createElement("h3");
+  allusionsTitle.textContent = "Historical/Mythological Characters";
+  const allusionsList = document.createElement("ul");
+  insight.allusions.forEach((item) => {
+    const li = document.createElement("li");
+    li.textContent = item;
+    allusionsList.append(li);
+  });
+  allusions.append(allusionsTitle, allusionsList);
+  insightContent.append(copy, allusions);
   insightPanel.append(insightContent);
   layerPanel.insertAdjacentElement("afterend", insightPanel);
 
